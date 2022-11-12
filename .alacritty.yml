@@ -1,0 +1,38 @@
+font:
+  normal:
+    family: JuliaMono
+    style: Regular
+
+  bold:
+    family: JuliaMono
+    style: Bold
+
+  italic:
+    family: JuliaMono
+    style: Italic
+
+  bold_italic:
+    family: JuliaMono
+    style: Bold Italic
+
+  size: 16
+  offset:
+    x: 0
+    y: 1
+
+
+key_bindings:
+  - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+
+
+window:
+  opacity: 0.95
+
+  title: Alacritty
+schemes:
+  ### Doom One ###
+  DoomOne: &DoomOne
+    primary:
+      background: '#0E1012'
+
+colors: *DoomOne
